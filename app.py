@@ -38,4 +38,5 @@ def messages():
         return Response(status=406)  # status for Not Acceptable
 
 
-
+if __name__ == '__main__':
+    app.run(port= 3978)
